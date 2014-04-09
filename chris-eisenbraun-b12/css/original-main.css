@@ -429,7 +429,7 @@ blockquote {
 /* content */
 
 .main_content {
-  background-image: url(../images/showcase_bg.png);
+  background-image: url(../images/showcase.png);
   background-repeat: no-repeat;
   background-color: #000000;
   /*width: 923px;*/
@@ -758,4 +758,8 @@ blockquote {
 }
 .normal_list b {
   color: white;
+}
+.main_content_top_bg {
+  background: url(../images/showcase_blog_bg.png) no-repeat;
+  height: 405px;
 }
