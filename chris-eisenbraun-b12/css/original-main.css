@@ -763,3 +763,24 @@ blockquote {
   background: url(../images/showcase_blog_bg.png) no-repeat;
   height: 405px;
 }
+
+/*Pulled from inline css - Nice Valve.*/
+
+ #quote_container {
+      position: absolute;
+      bottom: 27px;
+      left: 15px;
+      background: none !important;
+      z-index: 300;
+    }
+
+.pti {
+  position: absolute; bottom: 19px; left: 18px;
+  background: url(../images/pti.png) no-repeat;
+}
+
+.centerpiece {
+  position: absolute; left: 274px; top: 100px;
+  background: url(../images/centerpiece.png) no-repeat;
+
+}

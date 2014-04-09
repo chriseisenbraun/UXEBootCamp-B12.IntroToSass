@@ -8,48 +8,13 @@
 
   <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="css/reset.css">
-<!--  <link rel="stylesheet" href="css/original-main.css">-->
-    <link rel="stylesheet" href="css/main.css">
+  <!--  <link rel="stylesheet" href="css/original-main.css">-->
+  <link rel="stylesheet" href="css/main.css">
 
   <style type="text/css">
-    #quote_container {
-      position: absolute;
-      bottom: 27px;
-      left: 15px;
-      background: none !important;
-      z-index: 300;
-    }
   </style>
   <!-- include jQuery library -->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-  <!-- include Cycle plugin -->
-  <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.slideshow').cycle({
-        fx: 'fade',
-        cleartype: true,
-        cleartypeNoBg: true,
-        timeout: 5000
-      });
-    });
-  </script>
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-33822635-12']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
 
 </head>
 
@@ -62,7 +27,7 @@
             <img src="images/p2logo.png" />
           </a>
         </div>
-<!--        <img src="images/pti.png" / style="position: absolute; bottom: 19px; left: 18px;">-->
+        <div class="pti"></div>
         <div class="top_nav">
           <a class="nav_home_active" href="index.php">
             <span>Home</span>
@@ -83,20 +48,16 @@
       </div>
       <!-- close navigation div -->
 
-      <div class="showcase" style="position: relative; height: 501px;">
-        <img src="images/centerpiece.png" style="position: absolute; left: 274px; top: 100px;">
-        <a href="http://steamcommunity.com/workshop/portal2" style="position: absolute; left: 27px; bottom: 27px;">
+      <div class="showcase centerpiece">
+        <a href="http://steamcommunity.com/workshop/portal2">
           <img src="images/workshop.jpg">
         </a>
-        <!--<div id="quote_container" style="clear:both;">
-              <div id="quote"><img src="images/FrontPageQuote01.png"></div>
-          </div>-->
 
       </div>
       <!-- end showcase div -->
       <div class="main_content_top_bg"></div>
-      <div class="main_content" style="background-image: none; background-color: #000000; ">
-        <div id="shift_content" style="margin-top: -405px; position: relative;">
+      <div class="main_content">
+        <div id="shift_content">
           <div class="content_container">
             <div class="spotlight">
               <img src="images/title_blog_small.jpg" />
@@ -122,7 +83,7 @@
 
             <div class="headlines">
               <img src="images/Portal2_HomepageV3_02_33.png" />
-              <ul style="margin-bottom: 20px;">
+              <ul>
                 <li>
                   <a href="http://www.thinkwithportals.com/blog.php?id=8447&p=1">Wheatley in Spaaaaaaace!</a>
                 </li>
@@ -147,7 +108,7 @@
           <!-- list of footer images -->
           <div class="footer">
             <a href="http://www.esrb.org/index-js.jsp" target="_blank">
-              <img src="images/E10.png" style="height: 100px; margin-bottom: -33px;"/>
+              <img src="images/E10.png">
             </a>
             <a href="http://www.valvesoftware.com/" target="_blank">
               <img src="images/valve_logo.png" />
