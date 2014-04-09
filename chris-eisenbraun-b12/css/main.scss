@@ -1,9 +1,13 @@
-$site-font: arial, sans-serif;
-$primary-color: #ccc;
-$site-bgcolor:#000;
+$base-font: arial, sans-serif;
+$base-font-size: 1em;
+$base-line-height: 1;
+$base-color: #ccc;
+$base-bgcolor: #000;
 
- body {
-  font-family: $site-font;
-   color: $primary-color;
-   background-color: $site-bgcolor;
+body {
+  font-family: $base-font;
+  color: #cccccc;
+  background-color: $base-bgcolor;
+  font: $base-font-size;
+  line-height: $base-line-height;
 }

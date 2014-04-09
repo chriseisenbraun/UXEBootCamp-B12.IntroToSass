@@ -258,7 +258,7 @@ blockquote {
 /* header */
 
 .navigation {
-  background-image: url(../images/navigation_bg.png);
+  background-image: url(../images/navigation_blog_bg.png);
   background-repeat: no-repeat;
   height: 147px;
   /*width: 923px;*/
@@ -783,4 +783,12 @@ blockquote {
   position: absolute; left: 274px; top: 100px;
   background: url(../images/centerpiece.png) no-repeat;
 
+}
+
+#shift_content {
+  margin-top: -405px; position: relative;
+}
+
+.headline ul {
+  margin-bottom: 20px;
 }
