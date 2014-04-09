@@ -1,0 +1,9 @@
+$site-font: arial, sans-serif;
+$primary-color:#ccc;
+$site-bgcolor:#000;
+
+ body {
+  font-family: $site-font;
+   color: $primary-color;
+   background-color: $site-bgcolor;
+}
