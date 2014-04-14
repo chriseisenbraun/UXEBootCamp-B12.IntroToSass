@@ -1,0 +1,1 @@
+function test(){return"ANOTHER ONE"}function test(){return"Other"}function test(){return"Howdy Partnr"}
